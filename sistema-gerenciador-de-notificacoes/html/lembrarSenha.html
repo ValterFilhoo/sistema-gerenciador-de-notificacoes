@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Valter Filho">
+    <title>Lembrar Senha</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/lembrarSenha.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="container .container-sm containerLogo">
+
+            <img src="../imagens/logo-supremocrm.png" alt="Logotipo da Supremo CRM, revestida de cores como azul, verde, amarela, laranja, rosa." class="img-thumbnail">
+
+        </div>
+
+    </header>
+
+    <section>
+
+        <div class="container container-sm containerTitulo">
+
+            <h1 class="titulo"> Recuperar Senha </h1>
+
+        </div>
+
+        <div class="container containerForm d-flex flex-column justify-content-center mb-5">
+
+            <form>
+                
+               <div class="mb-4 mt-4">
+
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Informe o email." required>
+
+               </div>
+
+               <div>
+
+                    <button class="btn btn-primary btn-lg w-100" onclick="enviarEmail(event)">Lembrar Senha</button>
+
+               </div>
+                
+            
+            </form>
+
+            <div class="toast-header">
+                <p id="feedback"></p>
+            </div>
+
+        </div>
+        
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="../js/lembrarSenha.js"></script>
+
+</body>
+</html>

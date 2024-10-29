@@ -1,0 +1,55 @@
+.containerLogo{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4vh;
+}
+
+
+
+.containerTitulo {
+
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(61, 61, 163, 0.808);
+    text-transform: uppercase;
+
+}
+
+.containerForm {
+    width: 80%;
+}
+
+button {
+    text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+
+    .containerForm {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+
+    .containerForm {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    .containerForm {
+        width: 90%;
+    }
+
+    .titulo {
+        font-size: 3vh;
+        font-weight: bold;
+    }
+
+}

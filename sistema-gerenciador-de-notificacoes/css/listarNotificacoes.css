@@ -1,0 +1,127 @@
+.containerLogo{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+
+}
+
+
+
+.containerTitulo {
+
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    color: rgba(61, 61, 163, 0.808);
+    text-transform: uppercase;
+
+}
+
+.containerTable {
+    width: 80%;
+}
+
+textarea {
+
+    resize: none;
+
+}
+
+button, a {
+
+    text-transform: uppercase;
+    width: 40%;
+
+}
+
+
+
+.botaoEditar {
+
+    margin-right: 3vw;
+    margin-left: 2.5vw;
+
+}
+
+
+@media (min-width: 528px) {
+
+    .containerTable {
+
+        width: 80%;
+        display: flex;
+
+    }
+
+    .containerAcoes {
+
+        display: flex;
+
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 528px) {
+
+    .containerTable {
+
+        width: 80%;
+        display: flex;
+        overflow-x: auto;
+
+    }
+
+    .containerAcoes {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botaoEditar, .botaoDeletar {
+
+        width: 90%;
+
+    }
+
+    .botaoDeletar {
+
+        margin-top: 1vh;
+
+    }
+
+}
+
+@media (max-width: 300px) {
+
+    .containerTable {
+
+        width: 80%;
+        overflow-x: auto;
+
+    }
+
+    .botaoEditar, .botaoDeletar {
+
+        width: 90%;
+
+    }
+
+    .botaoDeletar {
+
+        margin-top: 1vh;
+
+    }
+    
+
+    .tituloPrincipal {
+
+        font-size: 3vh;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+
+}
